@@ -9,3 +9,4 @@ layout: default
       <li><span>{{ story.date | date_to_string }}</span> &raquo; <a href="{{ story.link }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div>
